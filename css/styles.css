@@ -57,7 +57,7 @@ nav a:hover {
   /* background-color: #fff; */
   width: 1330px;
   height: auto; 
-  margin-top: 150px;
+  /* margin-top: 130px; */
   margin-left: 100px;
   margin-right: 100px;
   display: flex;
@@ -67,6 +67,7 @@ nav a:hover {
   font-family: "Inconsolata";
   width: 400px;
   height: 400px;
+  margin-top: 140px;
   margin-left: 100px;
   white-space: normal;
   /* background-color: #fff; */
@@ -136,8 +137,9 @@ nav a:hover {
 
 
 
-img{
+.right img{
 
   width: 400px;
   height: auto;
+  margin-top: 80px;
 }
