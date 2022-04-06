@@ -13,6 +13,7 @@ body {
   background: rgb(87,219,219);
   background: linear-gradient(267deg, rgba(87,219,219,1) 0%, rgba(241,213,60,1) 100%);
   color: white;
+  overflow: hidden;
 }
 
 
