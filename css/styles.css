@@ -5,13 +5,16 @@
   padding: 0;
   box-sizing: border-box;
   text-decoration: none;
+
+ 
 }
 
 body {
   background: rgb(87,219,219);
-  background: linear-gradient(173deg, rgba(87,219,219,1) 0%, rgba(241,213,60,1) 100%);
+  background: linear-gradient(267deg, rgba(87,219,219,1) 0%, rgba(241,213,60,1) 100%);
   color: white;
 }
+
 
 nav {
   width: 100vw;
@@ -54,6 +57,7 @@ nav a:hover {
   color: #1fa1b8;
 }
 
+
 #Home {
   /* background-color: #fff; */
   width: 1330px;
@@ -68,7 +72,7 @@ nav a:hover {
   font-family: "Inconsolata";
   width: 400px;
   height: 400px;
-  margin-top: 140px;
+  margin-top: 50px;
   margin-left: 100px;
   white-space: normal;
   /* background-color: #fff; */
@@ -144,4 +148,60 @@ nav a:hover {
   height: auto;
   margin-top: 80px;
   border-radius: 6px;
+  border: solid 1px #2B8F8F;
+  transition: all 0.5s ease-in-out;
 }
+
+.right img:hover{
+
+  transform: scale(1.1);
+}
+
+.container::before {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container .box {
+  position: relative;
+  bottom:100px;
+  right: 50px;
+  transform-style: preserve-3d;
+  animation: animate 15s linear infinite;
+}
+
+@keyframes animate {
+  0% {
+    transform: perspective(500px) rotateX(0deg) rotate(0deg);
+  }
+
+  100% {
+    transform: perspective(500px) rotateX(360deg) rotate(0deg);
+  }
+}
+
+.container .box span{
+  position: absolute;
+  left: 600px;
+  color: #fff;
+  font-size: 3.5em;
+  white-space: nowrap;
+  text-transform: uppercase;
+  font-weight: 600;
+  padding: 0 10px;
+  background: linear-gradient(90deg, transparent, rgba(0,0,0,0.5), transparent);
+  line-height: 0.76em;
+  transform-style: preserve-3d;
+  text-shadow: 0 5px 15px rgba(0.25);
+  transform: translate(-50%, -50%) rotateX(calc(var(--i) * 22.5deg))translateZ(105px);
+}
+
+.container .box span i:nth-child(1) {
+  font-style: initial;
+  color: #2B8F8F;
+}
+.container .box span i:nth-child(2) {
+  font-style: initial;
+  color: rgba(241,213,60,1);
+}
+
