@@ -73,7 +73,7 @@ nav a:hover {
   width: 400px;
   height: 400px;
   margin-top: 50px;
-  margin-left: 100px;
+  /* margin-left: 50px; */
   white-space: normal;
   /* background-color: #fff; */
 }
@@ -81,6 +81,11 @@ nav a:hover {
 .description {
   margin-top: 50px;
 
+}
+
+button a{
+
+  text-decoration: none;
 }
 
 .butt{
@@ -130,6 +135,8 @@ nav a:hover {
   margin-right: 10px
 }
 
+
+
 .Mail:hover {
   transform: scale(1.1);
   background-color: #1fa1b8;
@@ -137,16 +144,12 @@ nav a:hover {
 
 
 
-
-
-
-
-
 .right img{
 
   width: 400px;
   height: auto;
-  margin-top: 80px;
+  margin-top: 50px;
+  margin-right: 100px;
   border-radius: 6px;
   border: solid 1px #2B8F8F;
   transition: all 0.5s ease-in-out;
@@ -165,7 +168,7 @@ nav a:hover {
 .container .box {
   position: relative;
   bottom:100px;
-  right: 50px;
+  right: 180px;
   transform-style: preserve-3d;
   animation: animate 15s linear infinite;
 }
