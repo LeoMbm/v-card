@@ -8,7 +8,8 @@
 }
 
 body {
-  background-color: #303736;
+  background: rgb(87,219,219);
+  background: linear-gradient(173deg, rgba(87,219,219,1) 0%, rgba(241,213,60,1) 100%);
   color: white;
 }
 
@@ -29,7 +30,7 @@ nav h1 {
 }
 
 nav span {
-  color: #1fa1b8;
+  color: #2B8F8F;
 }
 
 ul {
@@ -91,7 +92,7 @@ nav a:hover {
   height: 40px;
   border-style: none;
   border-radius: 6px;
-  background-color: #a9a9a9;
+  background-color: #d2d1d1;
   font-family: "Inconsolata";
   transition: all 0.5s ease-in-out;
   cursor: pointer;
@@ -114,7 +115,7 @@ nav a:hover {
   height: 40px;
   border-style: none;
   border-radius: 6px;
-  background-color: #a9a9a9;
+  background-color: #d2d1d1;
   font-family: "Inconsolata";
   transition: all 0.5s ease-in-out;
   cursor: pointer;
