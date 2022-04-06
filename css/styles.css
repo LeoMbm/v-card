@@ -142,4 +142,5 @@ nav a:hover {
   width: 400px;
   height: auto;
   margin-top: 80px;
+  border-radius: 6px;
 }
