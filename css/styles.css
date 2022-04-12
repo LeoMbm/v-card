@@ -174,7 +174,7 @@ a {
   transform: scale(1.1);
 }
 
-/* .container::before {
+.container::before {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -220,7 +220,7 @@ a {
 .container .box span i:nth-child(2) {
   font-style: initial;
   color: rgba(241,213,60,1);
-} */
+}
 
 @media screen and (max-width: 1000px) {
   ul{
